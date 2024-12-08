@@ -21,13 +21,13 @@ with col1:
 
 with col2:
     # Image with a smaller size
-    st.image(r"C:\Users\sahan\Downloads\AI_project\dna.png", width=150)  # Adjust the width as needed
+    st.image("./images/dna.png", width=150)  # Adjust the width as needed
 
 # Dimmed background image using CSS
 st.markdown("""
     <style>
         .dimmed-background {
-            background-image: url('dna.png');
+            background-image: url('./images/dna.png');
             background-size: cover;
             height: 100%;
             filter: brightness(50%);
